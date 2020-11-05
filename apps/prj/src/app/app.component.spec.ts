@@ -1,12 +1,5 @@
-import { ɵivyEnabled as ivyEnabled } from '@angular/core';
 import { TestBed } from '@angular/core/testing';
 import { AppComponent } from './app.component';
-
-describe('Must have ivy', () => {
-  it('ivy has to be enabled', () => {
-    expect(ivyEnabled).toBeTruthy();
-  });
-});
 
 describe('AppComponent', () => {
   beforeEach(async () => {
